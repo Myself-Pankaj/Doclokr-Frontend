@@ -1,0 +1,78 @@
+@import "colors";
+
+// .footer_container {
+//   width: 100vw;
+//   height: 30vh;
+//   background-color: $dark;
+// //   margin-top: 5rem;
+//   color: $pink;
+//   padding: 2rem;
+// }
+// .footer {
+//   display: flex;
+//   width: 900px;
+
+//   > a {
+//     > img {
+//       margin-left: 10rem;
+//       width: 15vmax;
+//     }
+//   }
+//   > h2 {
+//     display: flex;
+//     font-size: 2rem;
+//     margin-left: 600px;
+//     >p{
+//         margin-right: 2rem; 
+//     }
+//     >div{
+//         >a{
+//             >svg{
+//                 margin: 1rem
+//             }
+//         };
+//     }
+//   }
+// }
+
+footer {
+    min-height: 300px;
+    background-color: $dark;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    color: white;
+    align-items: center;
+  
+    h2 {
+      color: $Redder;
+      font-family: fantasy;
+      font-weight: 400;
+      font-size: 2rem;
+    }
+  
+    a,
+    strong {
+      margin: 1rem;
+    }
+  
+    aside {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      h4 {
+        font-size: 1.1rem;
+      }
+  
+      a {
+        margin: 0.5rem;
+        font-size: 2rem;
+        color: white;
+        &:hover {
+          color: $Redder;
+        }
+      }
+    }
+  }

@@ -1,0 +1,122 @@
+@import "colors";
+
+.updateRole{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../Assets/whiteGradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    >div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        >svg{
+            font-size: 100px;
+            color:$pink ;
+            padding: 0.5rem;
+        }
+        >h5{
+            color: $pink;
+            font-size: 1rem;
+            margin: 1rem;
+        }
+        >select,input,textarea{
+            width: auto;
+            color: aliceblue;
+            width: 500px;
+            padding: 0.5rem 1rem;
+            outline: none;
+            border: 1px solid rgba(0, 0, 0, 0.172);
+            border-radius: 5px;
+            margin: 1rem;
+            font-size: 1rem;
+            background-color: black;
+        }
+       
+    }
+    >button{
+        background-color: teal;
+        color: $lightdark;
+        border: none;
+        border-radius: 10px;
+        padding: 0.5rem 2rem;
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        margin-top: 4.5rem;
+        cursor: pointer;
+
+        &:hover {
+            color: $dark;
+          }
+    }
+
+}
+@media screen and (max-width: 700px){
+    .updateRole{
+        // height: 80vh;
+        width: 100vw;
+        background-image: url("../Assets/whiteGradient.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        >div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            >svg{
+                font-size: 100px;
+                color:$pink ;
+                padding: 0.5rem;
+            }
+            >h5{
+                color: $pink;
+                font-size: 1rem;
+                margin: 1rem;
+            }
+            >select,input, textarea{
+                width: auto;
+                color: aliceblue;
+                width: 350px;
+                padding: 0.5rem 1rem;
+                outline: none;
+                border: 1px solid rgba(0, 0, 0, 0.172);
+                border-radius: 5px;
+                margin: 1rem;
+                font-size: 1rem;
+                background-color: black;
+            }
+           
+        }
+        >button{
+            background-color: $lightdark;
+            color: $pink;
+            border: none;
+            border-radius: 10px;
+            padding: 0.5rem 2rem;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            margin-top: 1.5rem;
+            cursor: pointer;
+    
+            &:hover {
+                color: $dark;
+              }
+        }
+    
+    }
+}

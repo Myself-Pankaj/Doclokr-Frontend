@@ -1,0 +1,239 @@
+@import "colors";
+
+.docList {
+  display: flex;
+  margin: 0.5rem;
+  > svg {
+    color: $Pinkhighlight;
+    margin-right: 1rem;
+  }
+  > h1 {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+}
+.count {
+  width: 100%;
+
+  > main {
+    max-width: 900px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #5e4b05;
+    padding: 0.2rem;
+    border-radius: 20px;
+
+    > div {
+      display: flex;
+      border-radius: 24px 4px 4px 4px;
+      color: aliceblue;
+      background-color: black;
+      flex-direction: column;
+      width: 20vmax;
+      height: 24vmax;
+      padding: 2vmax;
+      margin: 2vmax;
+      > h1 {
+        font-size: 2rem;
+        color: #c1b0d0;
+        text-align: center;
+        font-family: "Limelight", cursive;
+      }
+      > p {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        color: #df66c1;
+        font-family: "Orbitron", sans-serif;
+      }
+      > span {
+        display: flex;
+        flex-direction: column;
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+        overflow-y: scroll;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    }
+    > span {
+      display: flex;
+      width: 20vmax;
+      height: 24vmax;
+      padding: 1rem;
+      color: aliceblue;
+      border-radius: 4px 24px 4px 4px;
+      background-color: black;
+      // padding: 2vmax;
+      margin: 2vmax;
+      flex-direction: column;
+      margin: 2vmax;
+      > h1 {
+        font-size: 3rem;
+        letter-spacing: 2px;
+        color: #c1b0d0;
+        text-align: center;
+        font-family: "Limelight", cursive;
+      }
+      > div {
+        display: flex;
+        margin: 0 auto;
+        > p {
+          margin-top: 4rem;
+          padding: 0 4rem 0 0;
+          color: #df66c1;
+          font-size: 2rem;
+          font-family: "Gloria Hallelujah", cursive;
+        }
+        > img {
+          margin-left: 8rem;
+          position: absolute;
+          transform: rotate(-20deg);
+          width: 90px;
+        }
+      }
+      > p {
+        font-size: 2rem;
+        color: #df66c1;
+        font-family: "Gloria Hallelujah", cursive;
+      }
+      > button {
+        text-align: left;
+        font-size: 1.5rem;
+        --s: 0.1em; /* the thickness of the line */
+        --c: #2c4bff; /* the color */
+
+        color: red;
+        padding-bottom: var(--s);
+        background: linear-gradient(90deg, var(--c) 50%, #000 0)
+            calc(100% - var(--_p, 0%)) / 200% 100%,
+          linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s)
+            no-repeat;
+        -webkit-background-clip: text, padding-box;
+        background-clip: text, padding-box;
+        transition: 0.5s;
+        margin-top: 2rem;
+
+        &:hover {
+          --_p: 100%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1500px) {
+  .count {
+    width: 100%;
+    > main {
+      max-width: 900px;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.2rem;
+      border: 0;
+      border-radius: 20px;
+
+      > div {
+        display: flex;
+        border-radius: 24px 4px 4px 4px;
+        color: aliceblue;
+        background-color: black;
+        flex-direction: column;
+        width: 30vmax;
+        height: 27vmax;
+        padding: 2vmax;
+        margin: 2vmax;
+        > h1 {
+          font-size: 1.3rem;
+          color: #c1b0d0;
+          text-align: center;
+          font-family: "Limelight", cursive;
+        }
+        > p {
+          font-size: 0.8rem;
+          letter-spacing: 1px;
+          color: #df66c1;
+          font-family: "Orbitron", sans-serif;
+        }
+        > span {
+          display: flex;
+          flex-direction: column;
+          -ms-overflow-style: none; /* for Internet Explorer, Edge */
+          scrollbar-width: none; /* for Firefox */
+          overflow-y: scroll;
+          &::-webkit-scrollbar {
+            display: none;
+          }
+        }
+      }
+      > span {
+        display: flex;
+        width: 30vmax;
+        height: 27vmax;
+        padding: 1rem;
+        color: aliceblue;
+        border-radius: 4px 24px 4px 4px;
+        background-color: black;
+        // padding: 2vmax;
+        margin: 2vmax;
+        flex-direction: column;
+        margin: 2vmax;
+        > h1 {
+          font-size: 1.5rem;
+          letter-spacing: 2px;
+          color: #c1b0d0;
+          text-align: center;
+          font-family: "Limelight", cursive;
+        }
+        > div {
+          display: flex;
+          margin: 0 auto;
+          > p {
+            margin-top: 1rem;
+            padding: 1rem 3rem 0 0;
+            color: #df66c1;
+            text-align: center;
+            font-size: 1rem;
+            font-family: "Gloria Hallelujah", cursive;
+          }
+          > img {
+            margin-left: 4rem;
+            position: absolute;
+            transform: rotate(-10deg);
+            width: 40px;
+          }
+        }
+        > p {
+          font-size: 1rem;
+          color: #df66c1;
+          font-family: "Gloria Hallelujah", cursive;
+          text-align: center;
+        }
+        > button {
+          font-size: 1rem;
+          padding: 0;
+          color: aliceblue;
+          margin-top: 0rem;
+        }
+      }
+    }
+  }
+
+  .docList {
+    display: flex;
+    margin: 0.5rem;
+    > svg {
+      color: $Pinkhighlight;
+      margin-right: 1rem;
+    }
+    > h1 {
+      font-size: 0.8rem;
+      letter-spacing: 0px;
+    }
+  }
+}

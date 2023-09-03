@@ -1,0 +1,135 @@
+@import "colors";
+.docs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  > main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    > h1 {
+      font-size: 2.5rem;
+      font-family: "Limelight", cursive;
+    }
+    > a {
+      > svg {
+        font-size: 2.5rem;
+        font-family: "Limelight", cursive;
+      }
+    }
+  }
+  >div{
+  display: flex;
+  // border: 1px solid $dark;
+  background-color: antiquewhite;
+  margin: 2vmax auto;
+  width: 95vw;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+  max-width: 100%;
+  }
+}
+
+.docCard {
+  width: 14vmax;
+  display: flex;
+  border: 4px solid $dark;
+  padding: 1rem;
+  border-radius: 5px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+  > h1 {
+    font-family: "Roboto";
+    font-size: 1.2vmax;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &:hover {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+    // color: antiquewhite;
+    transform: translateY(-1vmax);
+  }
+}
+.AddDocs {
+  // width: 14vmax;
+  display: flex;
+  border: 4px solid $dark;
+  padding: 0 1rem;
+  border-radius: 5px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+  > svg {
+    font-size: 2vmax;
+    color: #5e4b05;
+    &:hover {
+      color: $BloodyRed;
+    }
+  }
+  &:hover {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+    transform: translateY(-1vmax);
+  }
+}
+
+.detail {
+  width: 80vw;
+  margin: auto;
+  > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  > p {
+    width: 70vw;
+    height: 400px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 300px){
+.docs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  > main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    > h1 {
+      font-size: 2.5rem;
+      font-family: "Limelight", cursive;
+    }
+    > a {
+      > svg {
+        font-size: 2.5rem;
+        font-family: "Limelight", cursive;
+      }
+    }
+  }
+  >div{
+  display: flex;
+  // border: 1px solid $dark;
+  background-color: antiquewhite;
+  margin: 2vmax auto;
+  width: 95vw;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+  max-width: 100%;
+  }
+}
+}

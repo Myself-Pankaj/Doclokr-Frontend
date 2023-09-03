@@ -1,0 +1,114 @@
+@import "colors";
+
+.addDocument {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > form {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    background-image: url("../Assets/homeBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 1rem;
+
+    > div {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      > select,input {
+        width: 250px;
+        padding: 0.5rem 1rem;
+        outline: none;
+        border: 1px solid rgba(0, 0, 0, 0.172);
+        border-radius: 5px;
+        margin: 1rem;
+        font-size: 1rem;
+      }
+    }
+    > h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      > input {
+        width: 250px;
+        padding: 0.5rem 1rem;
+        outline: none;
+        border: 1px solid rgba(0, 0, 0, 0.172);
+        border-radius: 5px;
+        margin: 1rem;
+        font-size: 1rem;
+      }
+      > svg {
+        font-size: 4rem;
+        border-radius: 24px;
+        background-color: $Citrus;
+        color: $pink;
+        padding: 10px;
+      }
+    }
+    > span {
+      width: 6rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    > button {
+      background-color: $Pinkhighlight;
+      color: $lightdark;
+      border: none;
+      border-radius: 10px;
+      padding: 0.5rem 4rem;
+      font-size: 1rem;
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      &:hover {
+        color: $dark;
+      }
+    }
+    >a{
+        color: $pink;
+    }
+  }
+}
+
+.dropzone{
+  display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 2px dashed $lightdark;
+      word-wrap: break-word;
+      padding: 1rem;
+      cursor: pointer;
+      >svg{
+        font-size: 4rem;
+        border-radius: 24px;
+        background-color: $BloodyRed;
+        color: $pink;
+        padding: 10px;
+      }
+      >input{
+        text-align: center;
+      }
+      >p{
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        color: $Citrus;
+      }
+}
