@@ -1,18 +1,40 @@
-# Getting Started with Create React App
+# React Frontend App 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React frontend app offers a user-friendly interface for seamless interactions with our backend API. It includes the following features:
 
-## Available Scripts
+## Features
+
+- 📝 **Note Taking:** Users can create and save notes for their reference.
+
+- 📂 **Document Management:** Easily store and access necessary documents.
+
+- 📊 **Project Management:** Save and manage important projects efficiently.
+
+- 🔑 **One-Tap Google Login:** Convenient login experience with Google authentication.
+
+## 📷 Live Demo
+
+You can try out the live demo of the app by visiting the following link:
+
+[Live Demo](https://doclockr.netlify.app/)
+
+## Getting Started
+
+To run the React Frontend App locally, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies using `npm install`.
+
+## 💡 Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Starts the development server for the app.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will automatically reload when you make changes. You can enjoy the smooth animations powered by **Framer Motion** and the modular, maintainable styles using **Sass**.
 
 ### `npm test`
 
@@ -22,49 +44,53 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+It correctly bundles React in production mode, optimizes the build for performance, and applies the styling powered by **Sass**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The build is minified, and the filenames include the hashes. Your app is ready to be deployed with the delightful animations from **Framer Motion**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- ⚛️ **React:** A JavaScript library for building user interfaces.
+- 🌟 **Framer Motion:** Used for delightful animations to enhance the user experience.
+- 🎨 **Sass:** A CSS extension language for adding enhanced styling to the application.
+- 🔄 **React-Redux:** Utilized for state management, ensuring a smooth and maintainable application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📚 Learn More
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React documentation](https://reactjs.org/)
+- [Framer Motion documentation](https://www.framer.com/motion/)
+- [Sass documentation](https://sass-lang.com/)
+- [React-Redux documentation](https://react-redux.js.org/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 👨‍💻 Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[![Instagram Icon](https://img.icons8.com/color/96/000000/instagram-new.png)](https://www.instagram.com/ifeelpankaj) 
+ [![LinkedIn Icon](https://img.icons8.com/color/96/000000/linkedin.png)](https://www.linkedin.com/in/ifeelpankaj) 
 
-## Learn More
+👉 Please note that the backend API for this app can be found [here](Link to Backend Repository).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📷 Quick Look
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div style="display: flex; justify-content: space-between;">
+  
+  <div>
+  <img src="https://res.cloudinary.com/attar-shop/image/upload/v1693763270/MyFolder/2_ovaiut.png" alt="Screenshot 3" width="100%">
+    <p align="center">Screenshot 3</p>
+  </div>
+  
+  <div>
+    <img src="https://res.cloudinary.com/attar-shop/image/upload/v1693763279/MyFolder/5_ikux8u.png" alt="Screenshot 1" width="100%">
+    <p align="center">Screenshot 1</p>
+  </div>
+  
+  <div>
+    <img src="https://res.cloudinary.com/attar-shop/image/upload/v1693763276/MyFolder/4_kb7pey.png" alt="Screenshot 2" width="100%">
+    <p align="center">Screenshot 2</p>
+  </div>
+  
+  <div>
+    <img src="https://res.cloudinary.com/attar-shop/image/upload/v1693763273/MyFolder/3_rol1r1.png" alt="Screenshot 3" width="100%">
+    <p align="center">Screenshot 3</p>
+  </div>
+  
+</div>
