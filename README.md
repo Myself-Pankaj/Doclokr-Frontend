@@ -2,6 +2,13 @@
 
 This React frontend app offers a user-friendly interface for seamless interactions with our backend API. It includes the following features:
 
+## 📷 Live Demo
+
+You can try out the live demo of the app by visiting the following link:
+
+[Live Demo](https://doclockr.netlify.app/)
+
+
 ## Features
 
 - 📝 **Note Taking:** Users can create and save notes for their reference.
@@ -12,11 +19,7 @@ This React frontend app offers a user-friendly interface for seamless interactio
 
 - 🔑 **One-Tap Google Login:** Convenient login experience with Google authentication.
 
-## 📷 Live Demo
 
-You can try out the live demo of the app by visiting the following link:
-
-[Live Demo](https://doclockr.netlify.app/)
 
 ## Getting Started
 
