@@ -1,4 +1,4 @@
-# React Frontend App 🚀
+# DocLoKr  
 
 This React frontend app offers a user-friendly interface for seamless interactions with our backend API. It includes the following features:
 
