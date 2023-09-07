@@ -70,7 +70,7 @@ The build is minified, and the filenames include the hashes. Your app is ready t
 [![Instagram Icon](https://img.icons8.com/color/96/000000/instagram-new.png)](https://www.instagram.com/ifeelpankaj) 
  [![LinkedIn Icon](https://img.icons8.com/color/96/000000/linkedin.png)](https://www.linkedin.com/in/ifeelpankaj) 
 
-👉 Please note that the backend API for this app can be found [here](Link to Backend Repository).
+👉 Please note that the backend API for this app can be found [here](https://github.com/Myself-Pankaj/Doclokr-Backend).
 
 ## 📷 Quick Look
 
