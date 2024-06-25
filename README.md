@@ -10,6 +10,11 @@ You can try out the live demo of the app by visiting the following link:
 
 ***Note Website may be little slow because of using free resource for deployment***
 
+## Source Code
+[Frontend](https://github.com/Myself-Pankaj/Doclokr-Frontend)
+[Backend](https://github.com/Myself-Pankaj/DocLocKr-Backend)
+
+
 
 ## Features
 
