@@ -2,6 +2,11 @@
 
 This React frontend app offers a user-friendly interface for seamless interactions with our backend API. It includes the following features:
 
+<div>
+    <img src="https://res.cloudinary.com/attar-shop/image/upload/v1693763279/MyFolder/5_ikux8u.png" alt="Screenshot 1" width="100%">
+    <p align="center">Screenshot 1</p>
+  </div>
+
 ## 📷 Live Demo
 
 You can try out the live demo of the app by visiting the following link:
