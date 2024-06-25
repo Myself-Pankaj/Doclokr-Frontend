@@ -8,6 +8,8 @@ You can try out the live demo of the app by visiting the following link:
 
 [Live Demo](https://doclockr.netlify.app/)
 
+***Note*** Website may be little slow because of using free resource for deployment 
+
 
 ## Features
 
